@@ -3,15 +3,17 @@ import { useState } from "react";
 import { ItemListCard } from "../common/item-list-card";
 
 export const AutoBidAuctions = () => {
-  let finalData;
-  const storageData = localStorage.getItem("allItems");
-  if (storageData) {
-    finalData = JSON.parse(storageData);
-  } else {
-    finalData = allNFTItems;
-    localStorage.setItem("allItems", JSON.stringify(allNFTItems));
+  let finalData = [];
+  if (typeof window !== "undefined") {
+    const storageData = localStorage.getItem("allItems");
+    if (storageData) {
+      finalData = JSON.parse(storageData);
+    } else {
+      finalData = allNFTItems;
+      localStorage.setItem("allItems", JSON.stringify(allNFTItems));
+    }
+    finalData = finalData.filter((item: any) => item.autoBid.active);
   }
-  finalData = finalData.filter((item: any) => item.autoBid.active);
   const [results, setResults] = useState<any[]>(finalData);
 
   return (

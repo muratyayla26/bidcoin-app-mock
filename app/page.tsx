@@ -302,13 +302,15 @@ export default function Home() {
   //   ],
   // };
   // results = data.results;
-  let finalData;
-  const storageData = localStorage.getItem("allItems");
-  if (storageData) {
-    finalData = JSON.parse(storageData);
-  } else {
-    finalData = allNFTItems;
-    localStorage.setItem("allItems", JSON.stringify(allNFTItems));
+  let finalData = [];
+  if (typeof window !== "undefined") {
+    const storageData = localStorage.getItem("allItems");
+    if (storageData) {
+      finalData = JSON.parse(storageData);
+    } else {
+      finalData = allNFTItems;
+      localStorage.setItem("allItems", JSON.stringify(allNFTItems));
+    }
   }
   const [results, setResults] = useState<any[]>(finalData);
 

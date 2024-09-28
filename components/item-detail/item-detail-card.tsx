@@ -45,13 +45,15 @@ const generateRandomUser = (usernames: any) => {
 };
 
 export const ItemDetailCard: FC<ItemDetailCardProps> = ({ item, setItem }) => {
-  let finalData;
-  const storageData = localStorage.getItem("bidcoinbalance");
-  if (storageData) {
-    finalData = JSON.parse(storageData);
-  } else {
-    finalData = "999";
-    localStorage.setItem("bidcoinbalance", "999");
+  let finalData = "0";
+  if (typeof window !== "undefined") {
+    const storageData = localStorage.getItem("bidcoinbalance");
+    if (storageData) {
+      finalData = JSON.parse(storageData);
+    } else {
+      finalData = "999";
+      localStorage.setItem("bidcoinbalance", "999");
+    }
   }
   const { isConnected, triggerLogin, getAccounts, provider } = useAuthContext();
   const [bidcoinBalance, setBidcoinBalance] = useState(Number(finalData));

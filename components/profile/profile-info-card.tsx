@@ -10,13 +10,15 @@ import { Snippet } from "@nextui-org/snippet";
 import { Image } from "@nextui-org/image";
 
 export const ProfileInfoCard = () => {
-  let finalData;
-  const storageData = localStorage.getItem("bidcoinbalance");
-  if (storageData) {
-    finalData = JSON.parse(storageData);
-  } else {
-    finalData = "999";
-    localStorage.setItem("bidcoinbalance", "999");
+  let finalData = "0";
+  if (typeof window !== "undefined") {
+    const storageData = localStorage.getItem("bidcoinbalance");
+    if (storageData) {
+      finalData = JSON.parse(storageData);
+    } else {
+      finalData = "999";
+      localStorage.setItem("bidcoinbalance", "999");
+    }
   }
   const [bidcoinBalance, setBidcoinBalance] = useState(finalData);
   const [isLoading, setIsLoading] = useState(true);

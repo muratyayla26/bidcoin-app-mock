@@ -13,16 +13,18 @@ export default function AuctionsPage({
   searchParams?: { [key: string]: string | undefined };
 }) {
   const page = searchParams?.page;
-  let finalAll;
-  let finalResult;
-  const storageData = localStorage.getItem("allItems");
-  if (storageData) {
-    finalAll = JSON.parse(storageData);
-    finalResult = JSON.parse(storageData).slice(0, 20);
-  } else {
-    finalAll = allNFTItems;
-    finalResult = allNFTItems.slice(0, 20);
-    localStorage.setItem("allItems", JSON.stringify(allNFTItems));
+  let finalAll = [];
+  let finalResult = [];
+  if (typeof window !== "undefined") {
+    const storageData = localStorage.getItem("allItems");
+    if (storageData) {
+      finalAll = JSON.parse(storageData);
+      finalResult = JSON.parse(storageData).slice(0, 20);
+    } else {
+      finalAll = allNFTItems;
+      finalResult = allNFTItems.slice(0, 20);
+      localStorage.setItem("allItems", JSON.stringify(allNFTItems));
+    }
   }
   const [allData, setAllData] = useState<any[]>(finalAll);
   const [results, setResults] = useState<any[]>(finalResult);

@@ -28,7 +28,11 @@ export const BidHistory = ({ bidHistory }: { bidHistory: string[] }) => {
   // ];
 
   // console.log("bidHistory", bidHistory);
-  const reversed = bidHistory.toReversed().filter((item) => item);
+  const mutationArr = bidHistory;
+  const reversed = mutationArr
+    .slice()
+    .reverse()
+    .filter((item) => item);
   return (
     <Card className="border-none h-fit ">
       <CardHeader>
