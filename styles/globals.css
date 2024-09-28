@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* https://github.com/nextui-org/nextui/issues/301 */
+#item-list-card-link div {
+    border-radius: 0;
+}
