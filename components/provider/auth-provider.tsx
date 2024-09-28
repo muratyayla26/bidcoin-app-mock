@@ -97,39 +97,39 @@ export const AuthProvider = ({ children }: IAuthProviderProps) => {
     authenticateUser,
   } = useWeb3Auth();
 
-  // useEffect(() => {
-  //   async function init() {
-  //     try {
-  //       setIsLoading(true);
-  //       if (isConnected) {
-  //         console.log("connected");
-  //       } else {
-  //         try {
-  //           const adapters = await getDefaultExternalAdapters({
-  //             options: {
-  //               clientId,
-  //               chainConfig: chain.solana,
-  //             },
-  //           });
-  //           adapters.forEach((adapter) => {
-  //             web3Auth?.configureAdapter(adapter);
-  //           });
-  //           console.log("initModal", initModal);
-  //           await initModal();
-  //         } catch (error) {
-  //           console.log(error);
-  //         }
-  //       }
-  //     } catch (error) {
-  //       console.log(error);
-  //     } finally {
-  //       setIsLoading(false);
-  //     }
-  //   }
-  //   if (web3Auth) {
-  //     init();
-  //   }
-  // }, [web3Auth, isConnected, provider, connect, initModal]);
+  useEffect(() => {
+    async function init() {
+      try {
+        setIsLoading(true);
+        if (isConnected) {
+          console.log("connected");
+        } else {
+          try {
+            const adapters = await getDefaultExternalAdapters({
+              options: {
+                clientId,
+                chainConfig: chain.solana,
+              },
+            });
+            adapters.forEach((adapter) => {
+              web3Auth?.configureAdapter(adapter);
+            });
+            // console.log("initModal", initModal);
+            // await initModal();
+          } catch (error) {
+            console.log(error);
+          }
+        }
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    if (web3Auth) {
+      init();
+    }
+  }, [web3Auth, isConnected, provider, connect]);
 
   const triggerLogin = async () => {
     if (!web3Auth) {
