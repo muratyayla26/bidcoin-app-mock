@@ -123,6 +123,28 @@ export const allNFTItems = [
     },
   },
   {
+    id: "eadffc69-e3ec-491c-941d-2b490361a15c",
+    price: 1.1254,
+    leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "500 Bidcoin",
+      },
+      links: {
+        image: "/images/500-bid.jpeg",
+      },
+    },
+  },
+  {
     interface: "Custom",
     id: "JEEqUNmR1EDmDrwZUL3L49cciBQUP264BrNAkyGS3Zoc",
     price: 10.1535,
@@ -243,6 +265,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "EwNcqvaH8TjJ1XxQXWDNSCknPni21b4CQDQAS64AFKhv",
+    },
+  },
+  {
+    id: "63fa9807-88b3-45a7-a69c-233590a32321",
+    price: 4.3254,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "2000 Bidcoin",
+      },
+      links: {
+        image: "/images/2000-bid.jpeg",
+      },
     },
   },
   {
@@ -382,6 +426,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "DwhCwUDGdK9UuQyeTURYHKAXByKaBvHUHJdRwEaK2wr9",
+    },
+  },
+  {
+    id: "d7684fca-69c5-42c7-813f-8789b2acfa66",
+    price: 8.3224,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "5000 Bidcoin",
+      },
+      links: {
+        image: "/images/5000-bid.jpeg",
+      },
     },
   },
   {
@@ -774,6 +840,28 @@ export const allNFTItems = [
     },
   },
   {
+    id: "551ef986-9a53-41e8-996a-1ecea5c025c7",
+    price: 1.1254,
+    leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "500 Bidcoin",
+      },
+      links: {
+        image: "/images/500-bid.jpeg",
+      },
+    },
+  },
+  {
     interface: "Custom",
     id: "JDnKSVEqwPAxLREv2PBwresFjB4FgRp3kYdwMRXhaLtj",
     price: 0.2862,
@@ -894,6 +982,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "CHDW3S2tuqPDnKQpAvv2Du2S2FrUoS5JjHusLPD4mbnc",
+    },
+  },
+  {
+    id: "90b4b322-90f3-4677-aa77-201e265c75f2",
+    price: 8.3224,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "5000 Bidcoin",
+      },
+      links: {
+        image: "/images/5000-bid.jpeg",
+      },
     },
   },
   {
@@ -2036,6 +2146,28 @@ export const allNFTItems = [
     },
   },
   {
+    id: "2e2e0dfd-ac4e-462c-8c4e-062fe75b211e",
+    price: 4.3254,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "2000 Bidcoin",
+      },
+      links: {
+        image: "/images/2000-bid.jpeg",
+      },
+    },
+  },
+  {
     interface: "Custom",
     id: "JCdBTSvjCvrNfUoBUHSuJPsZT5tMoXwxQmpFF7PDxMNa",
     price: 14.381,
@@ -2946,6 +3078,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "G4ieSMGqa7q4opZwGVQP22Vcp4JBGpazAsEdRb55PbdU",
+    },
+  },
+  {
+    id: "69b6e61d-ae79-41f0-87e0-a31d6ab5947d",
+    price: 4.3254,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "2000 Bidcoin",
+      },
+      links: {
+        image: "/images/2000-bid.jpeg",
+      },
     },
   },
   {
@@ -5874,6 +6028,28 @@ export const allNFTItems = [
     },
   },
   {
+    id: "d63c1825-4c6a-4517-b5dc-f562968d08e8",
+    price: 4.3254,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "2000 Bidcoin",
+      },
+      links: {
+        image: "/images/2000-bid.jpeg",
+      },
+    },
+  },
+  {
     interface: "Custom",
     id: "J8Ke39Cv39cMhAAbYmXERaE471jzyDEUqnizRRGQn6Vj",
     price: 10.8624,
@@ -8137,6 +8313,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "GWmUN9yDhQvRrK3f2q7vkRBuAhmZdiPmwNmheBaVJ2CG",
+    },
+  },
+  {
+    id: "e1031239-d38c-4d6a-a4ce-df68d376a482",
+    price: 1.1254,
+    leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "500 Bidcoin",
+      },
+      links: {
+        image: "/images/500-bid.jpeg",
+      },
     },
   },
   {
@@ -11212,6 +11410,28 @@ export const allNFTItems = [
     },
   },
   {
+    id: "8e3c28c1-8f1a-4477-9e2d-b592f2e395a8",
+    price: 1.1254,
+    leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "500 Bidcoin",
+      },
+      links: {
+        image: "/images/500-bid.jpeg",
+      },
+    },
+  },
+  {
     interface: "Custom",
     id: "Hzw9m1gTaX1fCZXvNN89tZgSqynsZvT3V9TYWiWysLen",
     price: 8.8322,
@@ -11578,6 +11798,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "FVriTSCujdfgL1wTRFr8iMtY4cKMVuoYXSmvCZ1P319v",
+    },
+  },
+  {
+    id: "d1b9c31c-1a2c-4dc2-8ffa-7f0638c3c3e6",
+    price: 8.3224,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "5000 Bidcoin",
+      },
+      links: {
+        image: "/images/5000-bid.jpeg",
+      },
     },
   },
   {
@@ -12340,6 +12582,28 @@ export const allNFTItems = [
       decimals: 0,
       token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
       associated_token_address: "BAi1FL6NsXWVFTzuNnawX18s11xu6fdVARXjNWVXSMAx",
+    },
+  },
+  {
+    id: "61ab1553-11dc-4ffa-ae93-149b4b9658b4",
+    price: 8.3224,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      metadata: {
+        description:
+          "Bidcoin token that allows you to participate in auctions.",
+        name: "5000 Bidcoin",
+      },
+      links: {
+        image: "/images/5000-bid.jpeg",
+      },
     },
   },
   {

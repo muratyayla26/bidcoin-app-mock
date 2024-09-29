@@ -15,8 +15,8 @@ const steps = [
     alt: "placeholder image1",
   },
   {
-    title: "Fund your wallet with $Bidcoin",
-    description: "$Bidcoin will be used for each bide you make",
+    title: "Fund your wallet with Bidcoin",
+    description: "Bidcoin will be used for each bide you make",
     image: "images/hero2.png",
     alt: "placeholder image2",
   },
