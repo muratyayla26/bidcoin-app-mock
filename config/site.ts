@@ -9,10 +9,12 @@ export const siteConfig = {
   itemDesc: "BAM - Auction",
   profileName: "BAM - Profile",
   profileDesc: "BAM - Profile",
+  onboardName: "BAM - Onboard",
+  onboardDesc: "BAM - Onboard",
   navItems: [
     {
       label: "Home",
-      href: "/",
+      href: "/onboard",
     },
     {
       label: "Auctions",

@@ -1,330 +1,85 @@
-"use client";
-
-import { HeroCarousel } from "@/components/main-page/hero-carousel";
-import { ItemsList } from "@/components/main-page/items-list";
-import { allNFTItems } from "@/lib/mockDatas";
 import { Button } from "@nextui-org/button";
+import { Image } from "@nextui-org/image";
 import { Link } from "@nextui-org/link";
-import { useEffect, useState } from "react";
+import { ClipboardMinus, Search } from "lucide-react";
 
-export default function Home() {
-  // const res = await fetch("https://rickandmortyapi.com/api/character");
-  // const data = await res.json();
-  // console.log("data", data);
-  // const mydata = {
-  //   info: {
-  //     count: 826,
-  //     pages: 42,
-  //     next: "https://rickandmortyapi.com/api/character?page=2",
-  //     prev: null,
-  //   },
-  //   results: [
-  //     {
-  //       id: 1,
-  //       name: "Rick Sanchez",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/1",
-  //       created: "2017-11-04T18:48:46.250Z",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "Morty Smith",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/2",
-  //       created: "2017-11-04T18:50:21.651Z",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "Summer Smith",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Female",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/3",
-  //       created: "2017-11-04T19:09:56.428Z",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "Beth Smith",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Female",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/4",
-  //       created: "2017-11-04T19:22:43.665Z",
-  //     },
-  //     {
-  //       id: 5,
-  //       name: "Jerry Smith",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/5",
-  //       created: "2017-11-04T19:26:56.301Z",
-  //     },
-  //     {
-  //       id: 6,
-  //       name: "Abadango Cluster Princess",
-  //       status: "Alive",
-  //       species: "Alien",
-  //       type: "",
-  //       gender: "Female",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/6",
-  //       created: "2017-11-04T19:50:28.250Z",
-  //     },
-  //     {
-  //       id: 7,
-  //       name: "Abradolf Lincler",
-  //       status: "unknown",
-  //       species: "Human",
-  //       type: "Genetic experiment",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/7",
-  //       created: "2017-11-04T19:59:20.523Z",
-  //     },
-  //     {
-  //       id: 8,
-  //       name: "Adjudicator Rick",
-  //       status: "Dead",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/8",
-  //       created: "2017-11-04T20:03:34.737Z",
-  //     },
-  //     {
-  //       id: 9,
-  //       name: "Agency Director",
-  //       status: "Dead",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/9",
-  //       created: "2017-11-04T20:06:54.976Z",
-  //     },
-  //     {
-  //       id: 10,
-  //       name: "Alan Rails",
-  //       status: "Dead",
-  //       species: "Human",
-  //       type: "Superhuman (Ghost trains summoner)",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/10",
-  //       created: "2017-11-04T20:19:09.017Z",
-  //     },
-  //     {
-  //       id: 11,
-  //       name: "Albert Einstein",
-  //       status: "Dead",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/11",
-  //       created: "2017-11-04T20:20:20.965Z",
-  //     },
-  //     {
-  //       id: 12,
-  //       name: "Alexander",
-  //       status: "Dead",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/12",
-  //       created: "2017-11-04T20:32:33.144Z",
-  //     },
-  //     {
-  //       id: 13,
-  //       name: "Alien Googah",
-  //       status: "unknown",
-  //       species: "Alien",
-  //       type: "",
-  //       gender: "unknown",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/13",
-  //       created: "2017-11-04T20:33:30.779Z",
-  //     },
-  //     {
-  //       id: 14,
-  //       name: "Alien Morty",
-  //       status: "unknown",
-  //       species: "Alien",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/14",
-  //       created: "2017-11-04T20:51:31.373Z",
-  //     },
-  //     {
-  //       id: 15,
-  //       name: "Alien Rick",
-  //       status: "unknown",
-  //       species: "Alien",
-  //       type: "",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/15",
-  //       created: "2017-11-04T20:56:13.215Z",
-  //     },
-  //     {
-  //       id: 16,
-  //       name: "Amish Cyborg",
-  //       status: "Dead",
-  //       species: "Alien",
-  //       type: "Parasite",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/16",
-  //       created: "2017-11-04T21:12:45.235Z",
-  //     },
-  //     {
-  //       id: 17,
-  //       name: "Annie",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "",
-  //       gender: "Female",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/17",
-  //       created: "2017-11-04T22:21:24.481Z",
-  //     },
-  //     {
-  //       id: 18,
-  //       name: "Antenna Morty",
-  //       status: "Alive",
-  //       species: "Human",
-  //       type: "Human with antennae",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/18",
-  //       created: "2017-11-04T22:25:29.008Z",
-  //     },
-  //     {
-  //       id: 19,
-  //       name: "Antenna Rick",
-  //       status: "unknown",
-  //       species: "Human",
-  //       type: "Human with antennae",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/19",
-  //       created: "2017-11-04T22:28:13.756Z",
-  //     },
-  //     {
-  //       id: 20,
-  //       name: "Ants in my Eyes Johnson",
-  //       status: "unknown",
-  //       species: "Human",
-  //       type: "Human with ants in his eyes",
-  //       gender: "Male",
-  //       origin: [Object],
-  //       location: [Object],
-  //       image: "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
-  //       episode: [Array],
-  //       url: "https://rickandmortyapi.com/api/character/20",
-  //       created: "2017-11-04T22:34:53.659Z",
-  //     },
-  //   ],
-  // };
-  // results = data.results;
-  let finalData = [];
-  if (typeof window !== "undefined") {
-    const storageData = localStorage.getItem("allItems");
-    if (storageData) {
-      finalData = JSON.parse(storageData);
-    } else {
-      finalData = allNFTItems;
-      localStorage.setItem("allItems", JSON.stringify(allNFTItems));
-    }
-  }
-  const [results, setResults] = useState<any[]>(finalData);
-
+export default function LandingPage() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-4 md:py-5">
-      <HeroCarousel />
-      <h4 className="font-medium text-xl text-left w-full mt-8">
-        Top Auctions
-      </h4>
-      <ItemsList results={results} />
-      <Button as={Link} href="/auctions" className="mt-3" color="secondary">
-        See More
-      </Button>
-    </section>
+    <div className="min-h-screen bg-gray-900 text-white relative">
+      <div className="absolute top-0 bottom-0 left-0 right-0 inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-gray-900 opacity-50"></div>
+      <div className="relative container mx-auto px-4 py-16 ">
+        <header className="text-center mb-16">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
+            Bidcoin
+          </h1>
+          <p className="text-xl md:text-2xl font-semibold">
+            Revolutionizing NFT Bidding
+          </p>
+        </header>
+        <main className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <section className="space-y-6">
+            <h2 className="text-3xl font-semibold">Discover Rare NFTs</h2>
+            <p className="text-gray-300">
+              Bidcoin is the premier platform for bidding on exclusive NFTs. Our
+              cutting-edge blockchain technology ensures secure and transparent
+              auctions, allowing you to collect unique digital assets with
+              confidence.
+            </p>
+            <p className="text-gray-300">
+              Join a thriving community of collectors and creators, and
+              experience the future of digital ownership. With Bidcoin, you're
+              not just buying art – you're investing in the decentralized
+              future.
+            </p>
+          </section>
+          <section className="bg-gray-800 bg-opacity-50 p-8 rounded-lg shadow-xl">
+            <h2 className="text-2xl font-semibold mb-4">Join the Revolution</h2>
+            <div className="flex flex-col sm:flex-row items-start gap-4">
+              <Button
+                as={Link}
+                href="https://x.com/BidcoinAuction"
+                target="_blank"
+                color="primary"
+              >
+                Follow us on
+                <Image
+                  className="invert"
+                  src="/images/xlogo.png"
+                  width={23}
+                  height={23}
+                  alt="X logo"
+                />
+              </Button>
+              <Button
+                as={Link}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeb2k-jer4Z6bmxTvrHlDI9aUY_ndxu854lPhXj1B5oCI21NQ/viewform"
+                target="_blank"
+                color="primary"
+              >
+                Share Feedback
+                <ClipboardMinus size={20} />
+              </Button>
+              <Button
+                as={Link}
+                href="/auctions"
+                target="_blank"
+                color="primary"
+              >
+                Explore Auctions
+                <Search size={20} />
+              </Button>
+            </div>
+          </section>
+        </main>
+        <footer className="mt-16 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+          <div className="flex items-center">
+            <p className="text-sm text-gray-400">
+              &copy; 2024 Bidcoin. All rights reserved.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
   );
 }
 

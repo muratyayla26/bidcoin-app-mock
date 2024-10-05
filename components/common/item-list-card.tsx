@@ -133,7 +133,7 @@ export const ItemListCard: FC<ItemListCardProps> = ({
           <Image
             isZoomed
             alt={title}
-            className="w-full h-full min-h-[219px] object-cover rounded-none cursor-pointer"
+            className="w-full min-w-[227px] h-[227px] min-h-[219px] object-cover rounded-none cursor-pointer"
             src={imgUrl}
           />
         </Link>
