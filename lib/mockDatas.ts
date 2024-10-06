@@ -2,7 +2,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JEH7cJxAKdprFG5AvdsY2c4ZqojxLBjFmw19zADV6oK5",
-    price: 1.1254,
+    price: 0.1125,
     leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
     tracked: false,
     bamPros: true,
@@ -123,8 +123,149 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JEGrd3hGwAj9tLUjTERphJcRWBYeEvX3Gz4nBzSExib4",
+    price: 0.1525,
+    leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/ixuNZAex9b0r-lYIkFxoEulB4uSWXWcqKTo1BywouXc",
+      files: [
+        {
+          uri: "https://arweave.net/_m-tolfQWlY8wgHoEbHOszwYLAMfpk9xVnlx5tIeOwg",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/_m-tolfQWlY8wgHoEbHOszwYLAMfpk9xVnlx5tIeOwg",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/2832.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/2832.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 2,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Dark",
+            trait_type: "Type",
+          },
+          {
+            value: "None",
+            trait_type: "Clothes",
+          },
+          {
+            value: "Silver Earring",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Black Top Hat",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #2832",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/_m-tolfQWlY8wgHoEbHOszwYLAMfpk9xVnlx5tIeOwg",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "CsbBD3YhDi8M6H1nY6grfKdZNH9WBKzvzs4qeCoebUSV",
+    },
+  },
+  {
     id: "eadffc69-e3ec-491c-941d-2b490361a15c",
-    price: 1.1254,
+    price: 0.1125,
     leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
     tracked: false,
     bamPros: true,
@@ -145,9 +286,578 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JDhB1CmFxthHHsps1uk6XZ3uNK8GZj5Hpd3J3ni2gQ1E",
+    price: 0.2325,
+    leader: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/2575.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/2575",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/2575",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Everest",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Hearts",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Clown Notched",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Tired Blue",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Flipped",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Mad",
+            trait_type: "Hair",
+          },
+          {
+            value: "0 White",
+            trait_type: "Shirt",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#2576",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/2575",
+        external_url: "",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "HWf7c3evXY3gghjPxvCmBGhuPaWkE5MVau7EnrJADYck",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "FbfM2Byip46ta4ntCFk95MKoZTCeSjZYnoiD1PnEtBfC",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JDSDAV8iy57Vv4R1odRpUxFY3GajehWwQ2Z5ZvubHPKN",
+    price: 0.2325,
+    leader: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/196.json?ts=1717022179",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/196.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/196.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "grey overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "bowler",
+            trait_type: "Head",
+          },
+          {
+            value: "male",
+            trait_type: "Base",
+          },
+          {
+            value: "barn background",
+            trait_type: "Background",
+          },
+          {
+            value: "watering can",
+            trait_type: "Tools",
+          },
+          {
+            value: "black",
+            trait_type: "Gloves",
+          },
+          {
+            value: "green",
+            trait_type: "Shirt",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #197",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/196.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "8gGD396EhpFCK2pZybSmW3CcxZrxUHnmCWqixMKMdnjL",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "ChV5Rq8CEem5dE43uoRhpt8c4SLf2wTHdXTs5Tsz8gKV",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JEDBG6xZQ3inAiMuZiwcWaQq9NqfePBgLvnzfgAm8rXR",
+    price: 0.1125,
+    leader: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/V_QoQcXHmcDin0No39y8wwF6BU9zB4d89tuIb9oITqE",
+      files: [
+        {
+          uri: "https://arweave.net/b7gYGdBn2hCkARi1spCngDryPqutE-rul8t9C_0c208",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/b7gYGdBn2hCkARi1spCngDryPqutE-rul8t9C_0c208",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/1423.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/1423.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Brown",
+            trait_type: "Type",
+          },
+          {
+            value: "Orange Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "Silver Earring",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Protagonist White Hat",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #1423",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/b7gYGdBn2hCkARi1spCngDryPqutE-rul8t9C_0c208",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "4zdNGgAtFsW1cQgHqkiWyRsxaAgxrSRRynnuunxzjxue",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 252,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "Dgjwanq63hqU1ENf5s4HfQ5c8iocfoGLprbL7fnRTxBr",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JDUfxEibSd94QaK1ve9mrQFgBiL3Ga7aAsBEMbtmEzdR",
+    price: 0.2154,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/1373.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1373",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1373",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Joker Stairs",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Echo",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Normal",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Brown",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Flipped",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Black",
+            trait_type: "Hair",
+          },
+          {
+            value: "Bigotry",
+            trait_type: "Shirt",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#1374",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1373",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "AARDXTjNbGyCQmwqVy1AiQT8qiQdJGQCJbro1hx7uNkS",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "CvX8mdv9YzvkxN4Xu4TYQBXKtgnQkAoSvdDa9L4eggLL",
+    },
+  },
+  {
     interface: "Custom",
     id: "JEEqUNmR1EDmDrwZUL3L49cciBQUP264BrNAkyGS3Zoc",
-    price: 10.1535,
+    price: 1.0153,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -268,8 +978,292 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JAKGY9aZjqeY3hrzX9yHavkDYzn5L4YEVYzkxiCdUuG7",
+    price: 0.5625,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/409.json?ts=1716243754",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/409.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/409.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "rainbow overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "black",
+            trait_type: "Gloves",
+          },
+          {
+            value: "chainsaw",
+            trait_type: "Tools",
+          },
+          {
+            value: "bowler",
+            trait_type: "Head",
+          },
+          {
+            value: "scarecrow",
+            trait_type: "Background",
+          },
+          {
+            value: "zombie",
+            trait_type: "Base",
+          },
+          {
+            value: "navy blue",
+            trait_type: "Shirt",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #410",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/409.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "GtSwRZTWRi7VKsVUsYKZwgg5TUVAymqXTNzcAyfY31Uv",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "B8WN8PekRbcfvP3qH9dntJuo3ZC27S6f94XJhNre1oWE",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JDPkQDaE2CYRNra2CiZSJqeHEuRek25ZiCkmwCfpg7BR",
+    price: 0.2325,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/3718.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3718",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3718",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Buffet",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Cry",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Normal",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Tired Green",
+            trait_type: "Eyes",
+          },
+          {
+            value: "V",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Joker",
+            trait_type: "Hair",
+          },
+          {
+            value: "0 White",
+            trait_type: "Shirt",
+          },
+          {
+            value: "Uganda",
+            trait_type: "Hat",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#3719",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3718",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "8TrqgKY5cJ6ZU2JsaMu6SB8hZh9F1bax8JdKT8Lny4zE",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "7QwL1HX2V2YW4Nn21Rt3Rkh2Q8ZeYPBB9vRRDKnHmxMh",
+    },
+  },
+  {
     id: "63fa9807-88b3-45a7-a69c-233590a32321",
-    price: 4.3254,
+    price: 0.4325,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -290,9 +1284,557 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "J8GNccjftJtcwaNvPftRkQ1wYM1L6NjNUxrDa9iQVFWm",
+    price: 0.6825,
+    leader: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/904.json?ts=1715804703",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/904.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/904.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "female",
+            trait_type: "Base",
+          },
+          {
+            value: "rake",
+            trait_type: "Tools",
+          },
+          {
+            value: "barn at night",
+            trait_type: "Background",
+          },
+          {
+            value: "red overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "cowboy",
+            trait_type: "Head",
+          },
+          {
+            value: "red",
+            trait_type: "Shirt",
+          },
+          {
+            value: "orange",
+            trait_type: "Gloves",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #905",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/904.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "2ZyXnfTqgwcabHobG2e4fMmbWELPTC3e2bdq88zvpkqD",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5YiCAM8wYSwbyJgAv6LrU3UHueATpZ76ff7EsjGKvNuT",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JDEHUCM78qxE74Nso64udHqMmPibg12DoTX6jeJ4TvNg",
+    price: 0.3225,
+    leader: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/4215.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/4215",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/4215",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Everest",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Cry",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Clown Notched",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "High AF",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Flipped",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "Chemise",
+            trait_type: "Shirt",
+          },
+          {
+            value: "Target",
+            trait_type: "Overlays",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#4216",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/4215",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5cS1JTxvkoqbLPa4soMFucTDCDQdzBwZZP7NMejgqBqf",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JE4tpFYs3nnW3rNoAmaNNXGWGRc6UhzUDDKQ3z2Ea26K",
+    price: 0.2225,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/Ga6f8oqkAaT5bGDEEwFRhdmSPMiVxAAu9tkh-rCsg4s",
+      files: [
+        {
+          uri: "https://arweave.net/h8ziOVC4gAaV0yweVxzXxv9UM82l6DfMBkTlX3VSiwY",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/h8ziOVC4gAaV0yweVxzXxv9UM82l6DfMBkTlX3VSiwY",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/727.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/727.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 4,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Brown",
+            trait_type: "Type",
+          },
+          {
+            value: "Blue Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Pipe",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Vipers",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Black Fedora 1",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #727",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/h8ziOVC4gAaV0yweVxzXxv9UM82l6DfMBkTlX3VSiwY",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "71R8VaomX6LUdSAZotqTMqer4xZJGh9kLhzxqvogtizL",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "46Sy8AAiqJYQJCfVKVfswVzsB6MFU4rverrNV5xtq6zn",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JD3R4ztjfzmz33K88rKsT7jAZuYzg1zkZmnTufsbK43i",
+    price: 0.6153,
+    leader: "4mummg3wa3P11D7REXZmu4E2AdFYUBUyPaQB3U1uDUYo",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/QmZSjQTeVvaQKFVaThnQQuWT1whFJHtEmih66wKqsaEyuv/0",
+      files: [
+        {
+          uri: "https://gateway.pinit.io/ipfs/QmTah3jJxZjvMpiZKkjJCSbKBKthSYRiun2fTP8yD61jET/0",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://gateway.pinit.io/ipfs/QmTah3jJxZjvMpiZKkjJCSbKBKthSYRiun2fTP8yD61jET/0",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "xy",
+            trait_type: "Character Type",
+          },
+          {
+            value: "ETHEREAL",
+            trait_type: "Realm",
+          },
+          {
+            value: "RETURN_TO_GOD",
+            trait_type: "State of Consciousness",
+          },
+        ],
+        description:
+          "To those capable of seeing the light of these spiritual orbs, there is no darkness, for they dwell in the presence of limitless light and at midnight see the sun shining under their feet.",
+        name: "#1399",
+        symbol: "ETS",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://gateway.pinit.io/ipfs/QmTah3jJxZjvMpiZKkjJCSbKBKthSYRiun2fTP8yD61jET/0",
+      },
+    },
+    authorities: [
+      {
+        address: "4mummg3wa3P11D7REXZmu4E2AdFYUBUyPaQB3U1uDUYo",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "5AWNnLtVzVzv3A8JnmnEG1m5JVwLmDcnVkYNfng3k38n",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "ECB96vAMuSUw2AhCum5uXczumbZdFbtrDgURcXiU6y3r",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "E5mQH9GWGMvgWWm78h5ouStRx31Ajoqcq4YPWgUc28Aj",
+        share: 33,
+        verified: false,
+      },
+      {
+        address: "3R2gEuccLaDADEu9X9NXxqWSRH4u25xBskZKawvoQunn",
+        share: 33,
+        verified: false,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 34,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "FK3NBcuXdsKKW9nVHLDyeiFBgKWpvoBqCfBwLZe6CyLP",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "FFYNarNPANXXxPBeU9UbZzPPy5rGjiPhP961uAPbFPND",
+    },
+  },
+  {
     interface: "Custom",
     id: "JECsxP3MYFV1NEHXtb4MVogQBMQqf17vcVrSyxdo6v7Q",
-    price: 6.1525,
+    price: 0.6153,
     leader: "B7TzF2cNVvRpnzvZjWrp8uEcErLfmiZ2BmWn1j3ktbpM",
     tracked: false,
     bamPros: false,
@@ -429,8 +1971,429 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "J4aUh6QX5bFisrBi52T5T3XHnqeDkFPK3CJcQMZWGzEt",
+    price: 0.4345,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/612.json?ts=1716977868",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/612.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/612.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "mario overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "white",
+            trait_type: "Gloves",
+          },
+          {
+            value: "watering can",
+            trait_type: "Tools",
+          },
+          {
+            value: "red",
+            trait_type: "Shirt",
+          },
+          {
+            value: "female",
+            trait_type: "Base",
+          },
+          {
+            value: "ufo",
+            trait_type: "Background",
+          },
+          {
+            value: "straw hat",
+            trait_type: "Head",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #613",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/612.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "DdAhbBhsi2hC32CesXWeA3mw3yZXPEFjQSf8xHgCdqrQ",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "DLDNNMHhNr3B1dSSHdBpVqpi4ADEAui3LoAtZn8AP8mk",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JD1MQz5nJLy4JmSY56okHNsF3nz9pv7y6ZcZACxVJnDL",
+    price: 0.3325,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/3868.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3868",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3868",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Fake Moon Landing",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Retardio OG",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Notched",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Tired Brown",
+            trait_type: "Eyes",
+          },
+          {
+            value: "V",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "President",
+            trait_type: "Costume",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#3869",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3868",
+        external_url: "",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "6Y7HG1cWWhgS1jiagpi5YQQLsmvuGsUTyt6ETcuERX3t",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5cdauN7oS5BM13uB9Un2yjwJNX1K4WgzwHfuyePcvfzx",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JE1MBnzT3aZLw19Rp45xDpgwakz8UVbHB7HEYS5tkqj9",
+    price: 0.3325,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/dj334OhjF-zDKe9MZmtzbTDGH8fsXLaFqNyqyVoykcU",
+      files: [
+        {
+          uri: "https://arweave.net/scoxCiw97JgRjdLbVRfPdEH5smSlBix-mpd_e_VfAJI",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/scoxCiw97JgRjdLbVRfPdEH5smSlBix-mpd_e_VfAJI",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/1264.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/1264.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Zombie",
+            trait_type: "Type",
+          },
+          {
+            value: "Brown Jacket",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Pipe",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "White Fedora 1",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #1264",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/scoxCiw97JgRjdLbVRfPdEH5smSlBix-mpd_e_VfAJI",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "6viMVCkeD4AYh7YStANBgCrjbqctTbqQhKcVxh38UuNm",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "3CQ74BG394DTZFEHgfiyKHcQXz859n9kJ8S3ybtW9mY1",
+    },
+  },
+  {
     id: "d7684fca-69c5-42c7-813f-8789b2acfa66",
-    price: 8.3224,
+    price: 0.8322,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -451,9 +2414,430 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JCrYDya5PMDF4mspmNPMW8X3FxPWW77DqRU5ttwuzrtt",
+    price: 0.5792,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/3675.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3675",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3675",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "China Ballistic",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Ocean",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Joined",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Green",
+            trait_type: "Eyes",
+          },
+          {
+            value: "W",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "Fart Against The Machine",
+            trait_type: "Shirt",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#3676",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3675",
+        external_url: "",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "EQtNzxQRPifgrwPuEmio6qoYjZJ6iEASyjN4zToMJj4i",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "J6UYkfHPHHQ2mB9WoELQmR2X7JaNkNCHkk86qfmAJQDL",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JDb4VdDyqCuBjB65xUAMyU6faJStSUaLqzanyHXFcXDS",
+    price: 0.5792,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/aSXW4vmlL4CHw_FpRxH7yiC__VPNJfWHteE4tWiiXeA",
+      files: [
+        {
+          uri: "https://arweave.net/lzOToq-0TY79mEneRpxIvSDm6UAUoTTHGnWi6dmeC8Q",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/lzOToq-0TY79mEneRpxIvSDm6UAUoTTHGnWi6dmeC8Q",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/1330.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/1330.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Red",
+            trait_type: "Type",
+          },
+          {
+            value: "Poncho",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Cigarette",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Protagonist Black Hat",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #1330",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/lzOToq-0TY79mEneRpxIvSDm6UAUoTTHGnWi6dmeC8Q",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "H7mtTUY1KNcAM9ZPUL9hYsB3z4z2g67QdtX3wdsASc4v",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 252,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "8iy12vk44Up5dCcFJwumj2kvU1QngzZ65CFPX6LKmfdZ",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "HzeSAKQFRjCsAkZJN84U9bnJQ2MPp8o7NtHJfo32WVr6",
+    price: 0.3563,
+    leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/615.json?ts=1716144848",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/615.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/615.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "orange",
+            trait_type: "Shirt",
+          },
+          {
+            value: "black overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "female",
+            trait_type: "Base",
+          },
+          {
+            value: "grass cutter",
+            trait_type: "Tools",
+          },
+          {
+            value: "straw hat",
+            trait_type: "Head",
+          },
+          {
+            value: "orange",
+            trait_type: "Gloves",
+          },
+          {
+            value: "barn background",
+            trait_type: "Background",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #616",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/615.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "FUCbptnjBU6LVw6AyCe56qERsZw1aqm8RNS21kSmuFD4",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "Dra4Rs3tyv8F5XP9gFGaafyDKbZKiZRHerZstanYvnMr",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDx35oH4ZuTqEL8kJ2VhQtGTq4XpfjyA8PXzgfe8wjPj",
-    price: 13.4927,
+    price: 1.3493,
     leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
     tracked: false,
     bamPros: true,
@@ -582,9 +2966,165 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JCgxeCM4suRCZhoroVVDc9b22J8jsjW66Bkd9gtbsnxh",
+    price: 0.3392,
+    leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/1987.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1987",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1987",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Tactical Warfare",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "?",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Notched",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Blue",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Flipped",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "Kill Bill",
+            trait_type: "Costume",
+          },
+          {
+            value: "Flower",
+            trait_type: "Hat",
+          },
+          {
+            value: "Uganda Flag",
+            trait_type: "Accessory",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#1988",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1987",
+        external_url: "",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "ALTYAxHdarBhsERwhxyYPFeRPKzM2NZwHoPTRvLPe8Nn",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5hKLv7bsj9tA7TDCtwMDhnepqMHvRAGpmA6wpE9TtgUF",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDtgWAsaLeGjYN2ro6fRGXStpDsqCvURuzhbG72cCNFJ",
-    price: 10.7919,
+    price: 1.0792,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: false,
@@ -705,9 +3245,714 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "Huven2A8eR63WGCDenhdLp2U3YvBwaLxzgAVgCeBpzSh",
+    price: 0.2411,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/370.json?ts=1716041057",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/370.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/370.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "golden",
+            trait_type: "Gloves",
+          },
+          {
+            value: "scarecrow",
+            trait_type: "Background",
+          },
+          {
+            value: "navy blue",
+            trait_type: "Shirt",
+          },
+          {
+            value: "female",
+            trait_type: "Base",
+          },
+          {
+            value: "golden shovel",
+            trait_type: "Tools",
+          },
+          {
+            value: "straw hat",
+            trait_type: "Head",
+          },
+          {
+            value: "mario overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #371",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/370.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "neok7Dri6ncexCNxvnxRZ5WN7HwPNuNVi1AgF8dDcno",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 252,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "3LmFf9v6DnheUtqfonAcE9FSLdPMUpj97D27GgTq6raa",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JCeuhUFvGoV97seMYSkP5iSkEwcvpBnF4KTqNhenLC4S",
+    price: 0.1861,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/3554.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3554",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3554",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Irrigation is the future",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Night Owl",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Notched",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Brown",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Flipped",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "Patrick Bateman",
+            trait_type: "Costume",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#3555",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3554",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "BydEv5WB7Dg9CPqZgqJMtewRurULjwYk24pYK63fpJWC",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "FkskQyXHyfC11WepTzYukfPNWBoCQTA5JN1kMi6L8kwS",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JDYbxvXA9rKF36zfww55P9d4egRfFFqAgHS4QaeRbex4",
+    price: 0.4861,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/HffpJJ8CvDglQNUDIdbvFSIaH4H8JG6R0yj2nRt53co",
+      files: [
+        {
+          uri: "https://arweave.net/CDiy8QsB8Ngd8pZaE6XojhPTuqpPa2U4yBKJbYfGDWc",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/CDiy8QsB8Ngd8pZaE6XojhPTuqpPa2U4yBKJbYfGDWc",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/383.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/383.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 2,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Orange",
+            trait_type: "Type",
+          },
+          {
+            value: "Black Smoking",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Blue Backwards Cap",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #383",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/CDiy8QsB8Ngd8pZaE6XojhPTuqpPa2U4yBKJbYfGDWc",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "5ecNqE8ZRFudPKVHiRaDyMA6ijk6oeiqsVF2QjN67aKm",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5Cg2WsLxtz4Jbt8s2XmD5FHZShKxjH5m1rEQmLNMFHwc",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JCBZkUZXPMiKtKkdJmv43jQFi1aYokVw9JEKpB66c29R",
+    price: 0.4861,
+    leader: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/282.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/282",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/282",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Fucking Retardio",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Love",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Joined",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Tired Green",
+            trait_type: "Eyes",
+          },
+          {
+            value: "V",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "Agent",
+            trait_type: "Shirt",
+          },
+          {
+            value: "NO UGANDAN",
+            trait_type: "Overlays",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#283",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/282",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "F5NkJfB9GxXjcz3n2D7hKupcRTfFpbHhKC6u1EvBNGDv",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5vKHzuBEMPbHi4bkEEahWGzkLR8hHq6HdpGstDsaLthp",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "Hq6gNDrbhE6uyW8qk6z4dj97kHpgwhhGsCRY6kM6PYur",
+    price: 0.4111,
+    leader: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/245.json?ts=1716059337",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/245.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/245.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "black overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "barn background",
+            trait_type: "Background",
+          },
+          {
+            value: "black",
+            trait_type: "Gloves",
+          },
+          {
+            value: "chainsaw",
+            trait_type: "Tools",
+          },
+          {
+            value: "white",
+            trait_type: "Shirt",
+          },
+          {
+            value: "male",
+            trait_type: "Base",
+          },
+          {
+            value: "bowler",
+            trait_type: "Head",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #246",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/245.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "BYEWJUXfVLVWYHzwUcUaeRwXLJopVJns4Js1gdqsB3aF",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "Ceg48jwPop4cYC1HFpT6Ztn916hi1eQUeaQZm6teceU7",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDqk2RQNHUhPLRY5tKKDZydZabWLfUWj9fr6WyfX1gJv",
-    price: 14.8608,
+    price: 1.4861,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: false,
@@ -840,8 +4085,149 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JCvxok5fpmoPgFa2CBa4JaCL2GrrAN9h4pifr3E1EGHt",
+    price: 0.2235,
+    leader: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/Q-NXtFm3F2eEjWfmgeG4VzOdGzdVlS3d0bTbbDMZPTw",
+      files: [
+        {
+          uri: "https://arweave.net/wxf3p4JJKnvELIclydr46r9fOLnDwak1YNaV2v_6YIc",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/wxf3p4JJKnvELIclydr46r9fOLnDwak1YNaV2v_6YIc",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/4130.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/4130.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Dark",
+            trait_type: "Type",
+          },
+          {
+            value: "Red Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "Silver Earring",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Blue Punk Hair",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #4130",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/wxf3p4JJKnvELIclydr46r9fOLnDwak1YNaV2v_6YIc",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "HEccTFFbqsB9k9zbLQZnTmEP4f8Y8J9gxLqWrPvboBt6",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "9iDFKpkrHA4sMtdanZANr14bRwsh9ENh3bxVy9a2aARw",
+    },
+  },
+  {
     id: "551ef986-9a53-41e8-996a-1ecea5c025c7",
-    price: 1.1254,
+    price: 0.1125,
     leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
     tracked: false,
     bamPros: true,
@@ -862,9 +4248,430 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JCap6aT2dzomEx7bDsPJfxfNnikPnYZcfMUCRMY4K4oj",
+    price: 0.3422,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/aOETJTLQwLa8kyM7nUlXMo2gIv1fSvavUe8J1mqzWl4",
+      files: [
+        {
+          uri: "https://arweave.net/9bv9K0XjKidtq0j2svVJupc79Xohy0EujQIlfQLErqQ",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/9bv9K0XjKidtq0j2svVJupc79Xohy0EujQIlfQLErqQ",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/515.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/515.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 2,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Brown",
+            trait_type: "Type",
+          },
+          {
+            value: "Orange Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Yellow Glasses",
+            trait_type: "Eyes",
+          },
+          {
+            value: "None",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #515",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/9bv9K0XjKidtq0j2svVJupc79Xohy0EujQIlfQLErqQ",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "DB27Zn42xuKKuWGufe1yGwbwzA2qaPqKhgbQ2nRY8gYB",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "2wwNnTFJXH7iMMHQCxfirPB8vZgSMiB8SYrHu4QiCygv",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JBMMG3Bb5CUdiokyd2dciqPbfC2GL8taK6itGEmKfP4s",
+    price: 0.1286,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/3509.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3509",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3509",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "Club",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "Hearts",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Normal",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Green",
+            trait_type: "Eyes",
+          },
+          {
+            value: "LSD",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Brown",
+            trait_type: "Hair",
+          },
+          {
+            value: "R Gangsta",
+            trait_type: "Shirt",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#3510",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/3509",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "52yC4dsZyu5oJFCF4TSpyvYKeMW1VTbXqPcvzGtf8gcJ",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "5ecqPwcBGufbBhH9nQdMMj69fKAnnPoLfvQniPWijnZm",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "HoxpbfYqk78EJAGGTmufXexjrp9UhKB3NUFwVhZtAcaf",
+    price: 0.1128,
+    leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/665.json?ts=1716087206",
+      files: [
+        {
+          uri: "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/665.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/665.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "red",
+            trait_type: "Gloves",
+          },
+          {
+            value: "grey overalls",
+            trait_type: "Overall",
+          },
+          {
+            value: "grass cutter",
+            trait_type: "Tools",
+          },
+          {
+            value: "fedora",
+            trait_type: "Head",
+          },
+          {
+            value: "orange",
+            trait_type: "Shirt",
+          },
+          {
+            value: "barn at night",
+            trait_type: "Background",
+          },
+          {
+            value: "female",
+            trait_type: "Base",
+          },
+          {
+            value: "true",
+            trait_type: "Upgraded",
+          },
+        ],
+        description: "Print different",
+        name: "Alpha Gardener #666",
+        symbol: "AG",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://shdw-drive.genesysgo.net/AmQcYLn2UScUd2g7bJ2KQWu6wwbiFMubuSyM2sAhm5e1/665.png",
+      },
+    },
+    authorities: [
+      {
+        address: "BFt97hkC3X8QrYiFDmDHZh4qJydEyAw5F9uhvwa3z2Jf",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "4fKR1UC2UA5R5m3ZGJwisZD4tkqQ2ZEPgGeZn51bB8uy",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.0999,
+      basis_points: 999,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "89UCzQ9iWEu8k8MueJaKrfnnJuvpqo8Yr2dypmsSmMNv",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "4bqw8pKghThMixJX5QxcYg56LPcNNczTauGXPf4sCEdY",
+        share: 100,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "BazqYRswzBFFNPErJLuEjWcbC8yNwvHnThecjGL9PgTM",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "8ouhCm11BArc7tTyNJmJri5dpab5TEaMxHJr7Bs8qgXX",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDnKSVEqwPAxLREv2PBwresFjB4FgRp3kYdwMRXhaLtj",
-    price: 0.2862,
+    price: 0.0286,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -985,8 +4792,149 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JCMLJaxiBjnZ2eLtRGaWBJpgskzWAfyBzKBMD44CJQAv",
+    price: 0.2552,
+    leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/nshEfn199YGYKIdmB3rVJN7d57JydSQD0fVQqWVowXE",
+      files: [
+        {
+          uri: "https://arweave.net/hWEeYpPEyGZ0_co93szDLfp6s9GRFrNsoPjV7F-o7ac",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/hWEeYpPEyGZ0_co93szDLfp6s9GRFrNsoPjV7F-o7ac",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/3188.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/3188.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Brown",
+            trait_type: "Type",
+          },
+          {
+            value: "Beige Smoking",
+            trait_type: "Clothes",
+          },
+          {
+            value: "Silver Earring",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Blue Backwards Cap",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #3188",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/hWEeYpPEyGZ0_co93szDLfp6s9GRFrNsoPjV7F-o7ac",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "8ZnzJFzZGgfcxy2Dg6NKLVVuE1jR76Pb72aHgNjMJnd9",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "G6SrhRaPETv59hJYvQPSVQWGYnbnecMCq4E94T9NKF5o",
+    },
+  },
+  {
     id: "90b4b322-90f3-4677-aa77-201e265c75f2",
-    price: 8.3224,
+    price: 0.8322,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -1007,9 +4955,302 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JC7nJ24YTyQ6LNvqFuzmRDQs1V17LbLazFMxhzd3vzbd",
+    price: 0.6318,
+    leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/vpMFIVPlBSCo_Kx7GvjKKXGpEvb77xB6XR9bWe8bJ14",
+      files: [
+        {
+          uri: "https://arweave.net/yRQv9P8BaFkkJ19r0g-F3Fe7GvQ_w5xEVrmfanLbxKE",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/yRQv9P8BaFkkJ19r0g-F3Fe7GvQ_w5xEVrmfanLbxKE",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/1740.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/1740.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Red",
+            trait_type: "Type",
+          },
+          {
+            value: "Orange Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Cigarette",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "White Fedora 1",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #1740",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        image:
+          "https://arweave.net/yRQv9P8BaFkkJ19r0g-F3Fe7GvQ_w5xEVrmfanLbxKE",
+        external_url: "https://solanamonkey.business/",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "9csNEmsdL76Mubya6DyuWQGDRG3b6ZcVzV5MQ3HqogWo",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "BDnWjbeybW6hVZZ7ULu8mq1BxqD45JuEkRtJ8K3EGmno",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JBHXGpATKp6HFxWMWDgAKXmZGECRuhMBmBH6Q2xk9Aqz",
+    price: 0.3318,
+    leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://gateway.pinit.io/ipfs/Qmce1cJz92cTic3CZwW9V7oYTBnNhd1xCXCfP6dT6UiAPk/1293.json",
+      files: [
+        {
+          uri: "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1293",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1293",
+          mime: "image/webp",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: "NASDAQ Floor",
+            trait_type: "Background",
+          },
+          {
+            value: "Normal",
+            trait_type: "Body",
+          },
+          {
+            value: "?",
+            trait_type: "Makeup",
+          },
+          {
+            value: "Piercing",
+            trait_type: "Eyebrows",
+          },
+          {
+            value: "Stars",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Blunt",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Retardio Black",
+            trait_type: "Hair",
+          },
+          {
+            value: "Sinners",
+            trait_type: "Shirt",
+          },
+          {
+            value: "No Future",
+            trait_type: "Accessory",
+          },
+        ],
+        description: "Retardio Cousins on the Solami blockchain",
+        name: "#1294",
+        symbol: "RETARDIO",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "",
+        image:
+          "https://we-assets.pinit.io/J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG/f7ac2fd2-13c4-4ca1-85ee-962772caf73e/1293",
+      },
+    },
+    authorities: [
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "DUX8SZXLKigc84BBUcYjA7PuKe2SFwXFtQVgwmBsaXKm",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0.05,
+      basis_points: 500,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "CD65AhREkE1VGenrEweVbBfk7CS4iwz9PF3ztgqX636o",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "J2Q2j6kpSg7tq8JzueCHNTQNcyNnQkvr85RhsFnYZWeG",
+        share: 40,
+        verified: false,
+      },
+      {
+        address: "EaQFCtz151a2wdxn6swjyjhTTx1XpBKi4te1zCfiGDj7",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "FtFsZU3CiSK1rdayd1aRR3smZVW83AM6wgtyyuyWLdFV",
+        share: 20,
+        verified: false,
+      },
+      {
+        address: "uS74rigLoPmKdi169RPUB4VSF6T9PqChTpG5jWzVhVp",
+        share: 20,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "B8g2Gz9GdjWESxE2EgySUuCqLjWJsVN2NvRaAkBXogNJ",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "2MwbVTwrhUVbMWAuPnvaVuAoyebbgogpjKihGMeeCD5p",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDfuX7zZvZmRGT1JtR7ugbLqqfvsuNXAanNG3RcteDR7",
-    price: 9.3181,
+    price: 0.9318,
     leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
     tracked: false,
     bamPros: true,
@@ -1138,9 +5379,291 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JBmKaDAUXpfxbTzF1PSgab2HhAfRGK2b2a5oF7SVyTYi",
+    price: 0.3686,
+    leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/lP2DmMbPP5TXR0URHu5hh86jfLcJZDYXGFQ_eaL7OKA",
+      files: [
+        {
+          uri: "https://arweave.net/idybgTcGbhgD3ocXeyh1wjk4Q91PAZSLwI9qdQs0FtI",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/idybgTcGbhgD3ocXeyh1wjk4Q91PAZSLwI9qdQs0FtI",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/3768.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/3768.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Skeleton",
+            trait_type: "Type",
+          },
+          {
+            value: "Green Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "Silver Earring",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Green Backwards Cap",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #3768",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/idybgTcGbhgD3ocXeyh1wjk4Q91PAZSLwI9qdQs0FtI",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "G6ZrJe3ELJZYkjm8ijkaBKaGbNjYpp9Hoz1e9B2JVahh",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "CTFxxT5PLaYtMer8nhRFQNJMhn7qyZkemCKxFHzBnJr4",
+    },
+  },
+  {
+    interface: "ProgrammableNFT",
+    id: "JBdPoed9FgZMC2yeE579hnrKom4w5477bzgaLkFQ5smg",
+    price: 0.5886,
+    leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/EqtQJ2tk3vapzA0wPp2DlfhjOGz1CZv23MyH608SR8w",
+      files: [
+        {
+          uri: "https://arweave.net/bCEwkZ3uW1gGoJLRB5BBvYloMvfMuHiZfm1Cfinf4PE",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/bCEwkZ3uW1gGoJLRB5BBvYloMvfMuHiZfm1Cfinf4PE",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/4455.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/4455.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 2,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Purple",
+            trait_type: "Type",
+          },
+          {
+            value: "Biker Vest",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Flower",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #4455",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/bCEwkZ3uW1gGoJLRB5BBvYloMvfMuHiZfm1Cfinf4PE",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "6uMAunUshwuvjcqe5HCDqdX13QnYM24W6M9w8ERcbJm6",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "FnN8kcxdkeQz3MVWHqghD28LvnFRfhZhsJ38DpvTkBh9",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDfT6xM3ByGAqxJMRtcd6YUE4HpcvGnE16Svkr1f967Q",
-    price: 9.6855,
+    price: 0.9686,
     leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
     tracked: false,
     bamPros: true,
@@ -1261,9 +5784,150 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JBKXFEKWhzMD1xhG8PWpbDaTfH9yCt2jvcAczMwz4SX6",
+    price: 0.3683,
+    leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/8DeK0EN1wE-KAUkLLViiJDuCcnYLtVFvI0Zr4ZZYWHU",
+      files: [
+        {
+          uri: "https://arweave.net/ytwYva7No8eHPtIJkHw6Ort8k-LKZ2hbNi2DTssI3-M",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/ytwYva7No8eHPtIJkHw6Ort8k-LKZ2hbNi2DTssI3-M",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/4347.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/4347.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Brown",
+            trait_type: "Type",
+          },
+          {
+            value: "White Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "Silver Earring",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Mining Hat",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #4347",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/ytwYva7No8eHPtIJkHw6Ort8k-LKZ2hbNi2DTssI3-M",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "GtmtXSgqpH8vqTUg6DsXCCMS2QGTGZ697kYZr5pwfwCv",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "GTjw9Jmcb9tEBCVRmTwyYdwstaGiCkRzhv3szRzmyP1W",
+    },
+  },
+  {
     interface: "Custom",
     id: "JDXd4nQt8QRXuTGxnya2wNCEvx3f4vZvnfg812nmgmJN",
-    price: 6.6834,
+    price: 0.6683,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -1392,9 +6056,150 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JAskAFRGXoLo9qWcUgcRk1JSQk4oyvNBEws1TqLfApqC",
+    price: 0.5929,
+    leader: "BbJhUoFDSfzEgEJJKC9GBtaZYwsqZd6eFnvztXV6e9KH",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/t3Hj5T-Syta_vLbwT5LTwvC4dybKk-0FwA6ODjjU_mk",
+      files: [
+        {
+          uri: "https://arweave.net/tUAeeZI9l2BmrUJWp7vj0iX9PBr_LCh2sRvME0zKbMk",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/tUAeeZI9l2BmrUJWp7vj0iX9PBr_LCh2sRvME0zKbMk",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/3077.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/3077.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Dark",
+            trait_type: "Type",
+          },
+          {
+            value: "None",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Cigarette",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Green Glasses",
+            trait_type: "Eyes",
+          },
+          {
+            value: "White Fedora 2",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #3077",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/tUAeeZI9l2BmrUJWp7vj0iX9PBr_LCh2sRvME0zKbMk",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "3WW1dArKrnWeiyS551FFmcSdM4cS2EmPbakY6hheBFvu",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "4tiBjXJZuJkdvshSGjvsxsk3qzRxMwdXE2NYAVVCFMfw",
+    },
+  },
+  {
     interface: "Custom",
     id: "JD4jDQ9CDNrRc8oRssDhLLJAZy6NC6JsYSzeVV7qDn2g",
-    price: 7.9292,
+    price: 0.7929,
     leader: "BbJhUoFDSfzEgEJJKC9GBtaZYwsqZd6eFnvztXV6e9KH",
     tracked: false,
     bamPros: true,
@@ -1523,9 +6328,150 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JAbrkZ6e6ErVyeoJKTYVWJFJ7M1RRaSTQzMBnGKmz8fD",
+    price: 0.1561,
+    leader: "8gZL9wYYcCZChHRr5gLpFK98pMWAGmXvhpboFHEEt3Qd",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/OS8rUtBsz2HBJjgXgw5fqpFSRC5fQtBmioTZUDvJ0VQ",
+      files: [
+        {
+          uri: "https://arweave.net/j9wZqlDGYg41BUTzL0RnBMtEK4Dy4RQsF8Dd6kFNkwg",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/j9wZqlDGYg41BUTzL0RnBMtEK4Dy4RQsF8Dd6kFNkwg",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/1526.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/1526.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Alien",
+            trait_type: "Type",
+          },
+          {
+            value: "Green Smoking",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Cigarette",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Military Helmet",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #1526",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/j9wZqlDGYg41BUTzL0RnBMtEK4Dy4RQsF8Dd6kFNkwg",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "9uStoQZWR6FszRJr9oiaZ8DqyNeprNDk86227y3ZpLT3",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "7e8ZrDLcHHUwEpS8odx9avXy7WdeCc76uZRfHZcqfAwP",
+    },
+  },
+  {
     interface: "Custom",
     id: "JD41diewHguMVNwGGjUfmYNpjZKHMq2QR245VAsfdwPq",
-    price: 9.7708,
+    price: 0.9771,
     leader: "8gZL9wYYcCZChHRr5gLpFK98pMWAGmXvhpboFHEEt3Qd",
     tracked: false,
     bamPros: true,
@@ -1654,9 +6600,150 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JAYFfp3UvJ8NBtk2xTdEQtG3aWSbCTzuip9fViexRtag",
+    price: 0.238,
+    leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/2qod5_zEfGbDqhdSR8dh1tSBqZnL1JNnNvxlLLuPFns",
+      files: [
+        {
+          uri: "https://arweave.net/zX5Z87KmFuvRLOrAXvkNVwlQw9vFWbwdqygi2_3urh8",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/zX5Z87KmFuvRLOrAXvkNVwlQw9vFWbwdqygi2_3urh8",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/3085.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/3085.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Orange",
+            trait_type: "Type",
+          },
+          {
+            value: "Purple Shirt",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Vape",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Pink Headset",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #3085",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/zX5Z87KmFuvRLOrAXvkNVwlQw9vFWbwdqygi2_3urh8",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "AUrox7sHx1L8mxEPrNqkVjHa16CXQ73UbgZtZTNPNLjx",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 255,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "BTfj2g4kG4NhW8NZoXrShdneHdRdsghHAZVu838htF7T",
+    },
+  },
+  {
     interface: "Custom",
     id: "JCyPka6UBhAjxpJMhMNvte5wR7LG2vZuYco349JvrvsZ",
-    price: 4.3799,
+    price: 0.438,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -1777,9 +6864,150 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JALVrFb5s8j1dqpDrBypPxCcFHcodGrxs7u1JG6gZvRi",
+    price: 0.2841,
+    leader: "5X7t2u1PdNxiRHscow5UNVG9DhnsC5AaVCWrmn7tYk3d",
+    tracked: false,
+    bamPros: false,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/owzTRVhj2o3635XSpjjgxgV4wvp7SpobuKGeObu7HBQ",
+      files: [
+        {
+          uri: "https://arweave.net/xdLW7pwUl5JuIkE-xOPF0CGAwR0vDVKW8EGf6ZA9F98",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/xdLW7pwUl5JuIkE-xOPF0CGAwR0vDVKW8EGf6ZA9F98",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/1460.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/1460.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Red",
+            trait_type: "Type",
+          },
+          {
+            value: "Green Jacket",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "Mask",
+            trait_type: "Mouth",
+          },
+          {
+            value: "None",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Blue Punk Hair",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #1460",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/xdLW7pwUl5JuIkE-xOPF0CGAwR0vDVKW8EGf6ZA9F98",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "2pUTQ6MxFMho9kQWet6e2mFHvr6kkZez7eYmwqhP2Zbp",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 253,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "HKWL1UcYNKTe8TZU2XFCM9sW88p6AETw2gC2rsqiPpGK",
+    },
+  },
+  {
     interface: "Custom",
     id: "JCwrHh7tth91efeqh915hVzoLjt72VFdTM2z7B27csUs",
-    price: 12.5406,
+    price: 1.2541,
     leader: "5X7t2u1PdNxiRHscow5UNVG9DhnsC5AaVCWrmn7tYk3d",
     tracked: false,
     bamPros: false,
@@ -1900,9 +7128,150 @@ export const allNFTItems = [
     },
   },
   {
+    interface: "ProgrammableNFT",
+    id: "JAJGCiMnLgnukXtnqAtNNVjD8314BQHhiivKJYVXiS7M",
+    price: 0.3566,
+    leader: "H9oDPoHyV9dUT13ayrbhrj2Y9cFejtL5Gy3Y7bWWrRNN",
+    tracked: false,
+    bamPros: true,
+    bidHistory: [],
+    autoBid: {
+      active: false,
+      amountRemained: 0,
+    },
+    content: {
+      $schema: "https://schema.metaplex.com/nft1.0.json",
+      json_uri:
+        "https://arweave.net/EHC87twJiIAOrixq6w3VNxw2q7-V_ILDpx92tGGimOA",
+      files: [
+        {
+          uri: "https://arweave.net/l8c1OEmOFBxMO2Ap7LhsEfv8KkgM7KIrWM_Ma-Xyyyo",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://arweave.net/l8c1OEmOFBxMO2Ap7LhsEfv8KkgM7KIrWM_Ma-Xyyyo",
+          mime: "image/png",
+        },
+        {
+          uri: "https://cdn.solanamonkey.business/gen2/4330.png",
+          cdn_uri:
+            "https://cdn.helius-rpc.com/cdn-cgi/image//https://cdn.solanamonkey.business/gen2/4330.png",
+          mime: "image/png",
+        },
+      ],
+      metadata: {
+        attributes: [
+          {
+            value: 3,
+            trait_type: "Attributes Count",
+          },
+          {
+            value: "Zombie",
+            trait_type: "Type",
+          },
+          {
+            value: "Green Smoking",
+            trait_type: "Clothes",
+          },
+          {
+            value: "None",
+            trait_type: "Ears",
+          },
+          {
+            value: "None",
+            trait_type: "Mouth",
+          },
+          {
+            value: "Vipers",
+            trait_type: "Eyes",
+          },
+          {
+            value: "Cowboy Hat",
+            trait_type: "Hat",
+          },
+        ],
+        description:
+          "SMB is a collection of 5000 randomly generated 24x24 pixels NFTs on the Solana Blockchain. Each SolanaMonkey is unique and comes with different type and attributes varying in rarity.",
+        name: "SMB #4330",
+        symbol: "SMB",
+        token_standard: "ProgrammableNonFungible",
+      },
+      links: {
+        external_url: "https://solanamonkey.business/",
+        image:
+          "https://arweave.net/l8c1OEmOFBxMO2Ap7LhsEfv8KkgM7KIrWM_Ma-Xyyyo",
+      },
+    },
+    authorities: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        scopes: ["full"],
+      },
+    ],
+    compression: {
+      eligible: false,
+      compressed: false,
+      data_hash: "",
+      creator_hash: "",
+      asset_hash: "",
+      tree: "",
+      seq: 0,
+      leaf_id: 0,
+    },
+    grouping: [
+      {
+        group_key: "collection",
+        group_value: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+      },
+    ],
+    royalty: {
+      royalty_model: "creators",
+      target: null,
+      percent: 0,
+      basis_points: 0,
+      primary_sale_happened: true,
+      locked: false,
+    },
+    creators: [
+      {
+        address: "mdaoxg4DVGptU4WSpzGyVpK3zqsgn7Qzx5XNgWTcEA2",
+        share: 0,
+        verified: true,
+      },
+      {
+        address: "HAryckvjyViFQEmhmMoCtqqBMJnpXEYViamyDhZUJfnG",
+        share: 100,
+        verified: false,
+      },
+      {
+        address: "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F",
+        share: 0,
+        verified: false,
+      },
+    ],
+    ownership: {
+      frozen: true,
+      delegated: false,
+      delegate: null,
+      ownership_model: "single",
+      owner: "2K3zCPNHyyPQidhayBPf3H9KrjTpGo3uxFzm6rKMT5ot",
+    },
+    supply: {
+      print_max_supply: 0,
+      print_current_supply: 0,
+      edition_nonce: 254,
+    },
+    mutable: true,
+    burnt: false,
+    token_info: {
+      supply: 1,
+      decimals: 0,
+      token_program: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      associated_token_address: "qQPd4hd1d3FEkESkp65Q3gePrBKkr19dibdqR7q9tiR",
+    },
+  },
+  {
     interface: "Custom",
     id: "JCuDxuzSUreNcN5CNghY1Vb8v69piWZjqr5nUEiHR1Qe",
-    price: 8.5655,
+    price: 0.8566,
     leader: "H9oDPoHyV9dUT13ayrbhrj2Y9cFejtL5Gy3Y7bWWrRNN",
     tracked: false,
     bamPros: true,
@@ -2025,7 +7394,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JCtWbNLJBuW7aJyCqYEE2q1MR1FhGXEuavCUYkaW2AVQ",
-    price: 11.9975,
+    price: 1.1998,
     leader: "H9oDPoHyV9dUT13ayrbhrj2Y9cFejtL5Gy3Y7bWWrRNN",
     tracked: false,
     bamPros: true,
@@ -2147,7 +7516,7 @@ export const allNFTItems = [
   },
   {
     id: "2e2e0dfd-ac4e-462c-8c4e-062fe75b211e",
-    price: 4.3254,
+    price: 0.4325,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -2170,7 +7539,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JCdBTSvjCvrNfUoBUHSuJPsZT5tMoXwxQmpFF7PDxMNa",
-    price: 14.381,
+    price: 1.4381,
     leader: "5X7t2u1PdNxiRHscow5UNVG9DhnsC5AaVCWrmn7tYk3d",
     tracked: false,
     bamPros: true,
@@ -2301,7 +7670,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JCZ7A2itJHiYAzFh5FYB9QC2jodsQDMEEwoXUXGNpwmu",
-    price: 6.5153,
+    price: 0.6515,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -2432,7 +7801,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JCAto2BvGBf4DiJ5ACmqAvANz14eGSN6aZbH4JQQBP7z",
-    price: 17.0253,
+    price: 1.7025,
     leader: "3hGhdH4VsRCxM8XVdRYcFFow4rDJ9hZdPZ6U3EcsbsA5",
     tracked: false,
     bamPros: true,
@@ -2563,7 +7932,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JC6JqVrCtBWJsVm1urAeEB8sHmdi7yjMDXpZy7pMwREn",
-    price: 19.3534,
+    price: 1.9353,
     leader: "BbJhUoFDSfzEgEJJKC9GBtaZYwsqZd6eFnvztXV6e9KH",
     tracked: false,
     bamPros: true,
@@ -2698,7 +8067,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JC1XabpAZnHTnzEDaKyunqLKC99Kfzc8VP9Pu1CVetgX",
-    price: 14.4311,
+    price: 1.4431,
     leader: "B7TzF2cNVvRpnzvZjWrp8uEcErLfmiZ2BmWn1j3ktbpM",
     tracked: false,
     bamPros: true,
@@ -2821,7 +8190,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBxprXvAJbZRTzUYbhgjBngstZwxE58GUdSkM4u39Y37",
-    price: 19.871,
+    price: 1.9871,
     leader: "3wFXyZngPoM8pFx5bmfQCDWS2fYoyr3k9dRFKQa2QKEH",
     tracked: false,
     bamPros: false,
@@ -2960,7 +8329,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBx1tQCoSKPDMwoKwzdGfNsE8tguS5kZGSfF28wMuU8n",
-    price: 4.8915,
+    price: 0.4891,
     leader: "D4XsNd5hHb5Vx9z4RMZwdF5DbJeFnUzZnLxZr5TxV7cV",
     tracked: false,
     bamPros: true,
@@ -3082,7 +8451,7 @@ export const allNFTItems = [
   },
   {
     id: "69b6e61d-ae79-41f0-87e0-a31d6ab5947d",
-    price: 4.3254,
+    price: 0.4325,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -3105,7 +8474,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBvvzaf5jaaBYYdMEaNTXbfBpjVSKjjxGF4U5YzttY5d",
-    price: 5.8968,
+    price: 0.5897,
     leader: "9rFkvkTi2nZy7An9LsqWaTFzU4ff3eNdHLrGdxAQRg9R",
     tracked: false,
     bamPros: true,
@@ -3228,7 +8597,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBvVipLQEw2HkNZdVzFc8uWsz3gwYj67KN3KEqNrjUCW",
-    price: 12.8953,
+    price: 1.2895,
     leader: "8gZL9wYYcCZChHRr5gLpFK98pMWAGmXvhpboFHEEt3Qd",
     tracked: false,
     bamPros: true,
@@ -3359,7 +8728,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBreshM9gqvhh7ssb87wpT2s1e1Nwsa6zEciftTNbbzH",
-    price: 0.0659,
+    price: 0.0066,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -3490,7 +8859,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBmEqfwnKc65N2Rvfg9jqiN9SfEFS55LMejzPyVvvmcG",
-    price: 0.4154,
+    price: 0.0415,
     leader: "BrSHuA4CxTwT3PusPLn7Rx1M9dH93rUZ9JeBtgnW5XKb",
     tracked: false,
     bamPros: true,
@@ -3613,7 +8982,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBR2ADeWWmtQabBb2Nv5aubypbaT5GXYLrW7D1Kynz7d",
-    price: 10.6581,
+    price: 1.0658,
     leader: "B7TzF2cNVvRpnzvZjWrp8uEcErLfmiZ2BmWn1j3ktbpM",
     tracked: false,
     bamPros: true,
@@ -3736,7 +9105,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBNpADjy9WFXydjDNGy2km9aJxr8JVYS2X4rYVBQwMWy",
-    price: 8.7315,
+    price: 0.8732,
     leader: "B7TzF2cNVvRpnzvZjWrp8uEcErLfmiZ2BmWn1j3ktbpM",
     tracked: false,
     bamPros: false,
@@ -3867,7 +9236,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBMzR9m2pD7FwJDbsR5fW6ETA3cfsP3HT7eu2accbZcq",
-    price: 5.394,
+    price: 0.5394,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -3990,7 +9359,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBMZFtdCb84eraMQn12fGkSGPoWwKrRoYqRsWYg8bbie",
-    price: 4.0345,
+    price: 0.4035,
     leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
     tracked: false,
     bamPros: true,
@@ -4113,7 +9482,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JBLTWzvbwqUkmoUZ4A7MMTfY1FGgQPEkAhzkx8R42MdH",
-    price: 1.4246,
+    price: 0.1425,
     leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
     tracked: false,
     bamPros: true,
@@ -4236,7 +9605,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JB8SfNesa6DzfgjrvuWFM1oh4YdanprYHRZ8bVjeApjx",
-    price: 17.1895,
+    price: 1.7189,
     leader: "EXE58RFWYYQgqdRmHVoLvTEJPrgycwhViLgHFj2Xyz8x",
     tracked: false,
     bamPros: true,
@@ -4359,7 +9728,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JB5qFjecwQ9euUvZkc8g9EY8UfRgMdNFd9se1A93AvRh",
-    price: 19.8128,
+    price: 1.9813,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -4490,7 +9859,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JAwfB4UG7GUgsczdP7WZhcAf2iVgfEUXSxuowgrVX21z",
-    price: 11.3071,
+    price: 1.1307,
     leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
     tracked: false,
     bamPros: false,
@@ -4613,7 +9982,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JAkfVU5TXDHeFRU2jbmgSieXgs9rsiS61EGPGxH9zDjS",
-    price: 3.6783,
+    price: 0.3678,
     leader: "5X7t2u1PdNxiRHscow5UNVG9DhnsC5AaVCWrmn7tYk3d",
     tracked: false,
     bamPros: true,
@@ -4748,7 +10117,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JAkZ4FHYGRGhFA2tCUn6q5jBpqk94hXK36dYKihgcT7W",
-    price: 2.091,
+    price: 0.2091,
     leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
     tracked: false,
     bamPros: true,
@@ -4883,7 +10252,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JAQ7QSrJbtUDhort16pnw2iHiHWXrJuyy4pxiUD5C9nt",
-    price: 18.8765,
+    price: 1.8877,
     leader: "BrSHuA4CxTwT3PusPLn7Rx1M9dH93rUZ9JeBtgnW5XKb",
     tracked: false,
     bamPros: true,
@@ -5014,7 +10383,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "JAMK7uE1g83YsbkadJTAtp4pnFpkeXkqM6kbCWkyY4gh",
-    price: 7.4562,
+    price: 0.7456,
     leader: "EXE58RFWYYQgqdRmHVoLvTEJPrgycwhViLgHFj2Xyz8x",
     tracked: false,
     bamPros: true,
@@ -5137,7 +10506,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J9qmLZaqufA4RSBYbK3N5jgvDWwTZVwdSpm2gc6PzufH",
-    price: 1.3457,
+    price: 0.1346,
     leader: "BbJhUoFDSfzEgEJJKC9GBtaZYwsqZd6eFnvztXV6e9KH",
     tracked: false,
     bamPros: true,
@@ -5260,7 +10629,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J9fxeAXAqpD5AuajqVfovkz8HJv1Cu2yACwAyRAixhSH",
-    price: 9.5214,
+    price: 0.9521,
     leader: "3wFXyZngPoM8pFx5bmfQCDWS2fYoyr3k9dRFKQa2QKEH",
     tracked: false,
     bamPros: true,
@@ -5391,7 +10760,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J967UZiEBrbiBNbsqTAfBMoSr1dnfTmGifqvbPd3oBUG",
-    price: 11.4451,
+    price: 1.1445,
     leader: "9rFkvkTi2nZy7An9LsqWaTFzU4ff3eNdHLrGdxAQRg9R",
     tracked: false,
     bamPros: true,
@@ -5514,7 +10883,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J8z5erehAR1EF3zm1Xi6HgKpmxgGn8HfPcnmtTPbchjR",
-    price: 8.236,
+    price: 0.8236,
     leader: "B7TzF2cNVvRpnzvZjWrp8uEcErLfmiZ2BmWn1j3ktbpM",
     tracked: false,
     bamPros: true,
@@ -5645,7 +11014,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J8rxqXnfmiVTJPZd2mothm54Ye37RicLbZh9aujHf9Yy",
-    price: 2.0553,
+    price: 0.2055,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -5776,7 +11145,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J8Tvx7EYf9yJdYukCGGFQAjRjWdwme8yGAtvm9LmdfBP",
-    price: 19.1861,
+    price: 1.9186,
     leader: "3hGhdH4VsRCxM8XVdRYcFFow4rDJ9hZdPZ6U3EcsbsA5",
     tracked: false,
     bamPros: false,
@@ -5899,7 +11268,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J8NpvuVhYX5kkujqdGVdjyDCH2bCREZm9mKoUeTSaNJE",
-    price: 15.8991,
+    price: 1.5899,
     leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
     tracked: false,
     bamPros: true,
@@ -6029,7 +11398,7 @@ export const allNFTItems = [
   },
   {
     id: "d63c1825-4c6a-4517-b5dc-f562968d08e8",
-    price: 4.3254,
+    price: 0.4325,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -6052,7 +11421,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J8Ke39Cv39cMhAAbYmXERaE471jzyDEUqnizRRGQn6Vj",
-    price: 10.8624,
+    price: 1.0862,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -6175,7 +11544,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J87yXKhKSSR41Yej4BJGRoTVauwBU8Uqvmip45EtZkqz",
-    price: 14.4015,
+    price: 1.4402,
     leader: "5X7t2u1PdNxiRHscow5UNVG9DhnsC5AaVCWrmn7tYk3d",
     tracked: false,
     bamPros: true,
@@ -6298,7 +11667,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J7jgt2fynTA1ntQaQ8wLsngGAb9uvCQFK3Z8HA5GKZuC",
-    price: 2.8123,
+    price: 0.2812,
     leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
     tracked: false,
     bamPros: true,
@@ -6421,7 +11790,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J7XiMe6KyWCoFk1P6wWgoN8FcGxSxUViYQtUMDTmmjov",
-    price: 11.7851,
+    price: 1.1785,
     leader: "4hXw9THadNiA23TEysW2GhZd1MwPiAA2pGUnk5doDcnJ",
     tracked: false,
     bamPros: true,
@@ -6544,7 +11913,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J7Tw6qkGYaAnr37Embpf1inX1Yr2eAJXWqvo32zy9WTB",
-    price: 16.7902,
+    price: 1.679,
     leader: "EXE58RFWYYQgqdRmHVoLvTEJPrgycwhViLgHFj2Xyz8x",
     tracked: false,
     bamPros: true,
@@ -6667,7 +12036,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J7SPGT3qhr4VEh3hxmaVPNnWuJjkxvMPz2ycdZP8ez84",
-    price: 10.4849,
+    price: 1.0485,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -6790,7 +12159,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J7EPeoZxxECjcYFVFuUwyJnn2Ve7wJAhC2up3zCGLknX",
-    price: 2.9236,
+    price: 0.2924,
     leader: "3hGhdH4VsRCxM8XVdRYcFFow4rDJ9hZdPZ6U3EcsbsA5",
     tracked: false,
     bamPros: false,
@@ -6913,7 +12282,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J6y23tyH96K8PjL4jkiF8BM9bb2FZZs8fyuxMMwpdbk7",
-    price: 8.2751,
+    price: 0.8275,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -7048,7 +12417,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J6wxpZfcCVX9yfcZJTSVvS2qq1mwj5r2za68CZHjpFMd",
-    price: 2.3761,
+    price: 0.2376,
     leader: "3hGhdH4VsRCxM8XVdRYcFFow4rDJ9hZdPZ6U3EcsbsA5",
     tracked: false,
     bamPros: true,
@@ -7171,7 +12540,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J6hLHuLTM2UEBghnEwcSh8JoAvi7niQG4WbR5GYPnjF5",
-    price: 6.6832,
+    price: 0.6683,
     leader: "9rFkvkTi2nZy7An9LsqWaTFzU4ff3eNdHLrGdxAQRg9R",
     tracked: false,
     bamPros: true,
@@ -7294,7 +12663,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J6CiLGhUR3ecjyBcnkxrtNgGN7vZMAgZdJv3f8H1S4fq",
-    price: 14.5828,
+    price: 1.4583,
     leader: "3wFXyZngPoM8pFx5bmfQCDWS2fYoyr3k9dRFKQa2QKEH",
     tracked: false,
     bamPros: true,
@@ -7425,7 +12794,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J6AxUtaCJykyWbMRRNtu9ue6ekoqq6tM7FvwWB9LhgnZ",
-    price: 12.0166,
+    price: 1.2017,
     leader: "H9oDPoHyV9dUT13ayrbhrj2Y9cFejtL5Gy3Y7bWWrRNN",
     tracked: false,
     bamPros: true,
@@ -7548,7 +12917,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J5a9H2sNGQrRu8PJ7rkqMKZhaBrzW78G7Qj7QxDqcB6S",
-    price: 15.0369,
+    price: 1.5037,
     leader: "4hXw9THadNiA23TEysW2GhZd1MwPiAA2pGUnk5doDcnJ",
     tracked: false,
     bamPros: true,
@@ -7671,7 +13040,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J5MLzMgKoQYoE4nLzQyice8V8VWzMC2u6Wu9zw6txv8F",
-    price: 6.467,
+    price: 0.6467,
     leader: "8gZL9wYYcCZChHRr5gLpFK98pMWAGmXvhpboFHEEt3Qd",
     tracked: false,
     bamPros: true,
@@ -7802,7 +13171,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J5Eb3xviFYBLZVNWHq2tA68FUgLBvGi6vFrQFPQfEx7U",
-    price: 6.5956,
+    price: 0.6596,
     leader: "3wFXyZngPoM8pFx5bmfQCDWS2fYoyr3k9dRFKQa2QKEH",
     tracked: false,
     bamPros: true,
@@ -7933,7 +13302,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J5AtQ7Ewpz3raoHj681VJK61q5aKDyjpWWsntpvDhXQp",
-    price: 3.6935,
+    price: 0.3694,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -8056,7 +13425,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J599D67DVD6FZsecZZNXNB626WZYKYsa1eprPzUY6m3C",
-    price: 8.1065,
+    price: 0.8107,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -8187,7 +13556,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J51jRNZaG27Jtp5QBg14nm7fatK5VMwjb2TLjtZvuQfj",
-    price: 12.0471,
+    price: 1.2047,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: false,
@@ -8317,7 +13686,7 @@ export const allNFTItems = [
   },
   {
     id: "e1031239-d38c-4d6a-a4ce-df68d376a482",
-    price: 1.1254,
+    price: 0.1125,
     leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
     tracked: false,
     bamPros: true,
@@ -8340,7 +13709,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J4yWEEjVSkygaEVV2FLGAUA1KvribYvRS7VyAr4HU3tB",
-    price: 2.8726,
+    price: 0.2873,
     leader: "H9oDPoHyV9dUT13ayrbhrj2Y9cFejtL5Gy3Y7bWWrRNN",
     tracked: false,
     bamPros: true,
@@ -8463,7 +13832,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J4tLsnPJ27rN92qKFEESxbdFbnPHXkZfu7hP8noTrXxi",
-    price: 6.9488,
+    price: 0.6949,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -8602,7 +13971,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J4RvXFPmycRcP8EvQA3ygH8uooVsGPRbhxJZpDykVJ9J",
-    price: 8.4233,
+    price: 0.8423,
     leader: "4hXw9THadNiA23TEysW2GhZd1MwPiAA2pGUnk5doDcnJ",
     tracked: false,
     bamPros: true,
@@ -8725,7 +14094,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J4DozPxC1VQGrNtnjuzPsXC2ALb6b2o1VxVzqcq5yHvL",
-    price: 11.728,
+    price: 1.1728,
     leader: "3hGhdH4VsRCxM8XVdRYcFFow4rDJ9hZdPZ6U3EcsbsA5",
     tracked: false,
     bamPros: true,
@@ -8848,7 +14217,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J4CYGC3Fo72fzSvWSkD5GHfJvhfgfJiMX8yv1gGrHXqD",
-    price: 6.0248,
+    price: 0.6025,
     leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
     tracked: false,
     bamPros: true,
@@ -8971,7 +14340,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J45aTE7H3LoLQuqTMPaj7UtQMVZUs4PYngaeBnrqReKZ",
-    price: 2.2371,
+    price: 0.2237,
     leader: "3wFXyZngPoM8pFx5bmfQCDWS2fYoyr3k9dRFKQa2QKEH",
     tracked: false,
     bamPros: true,
@@ -9094,7 +14463,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J3znNVzaWEjSf7Hj7WoVcvNDnbkqLt3hKHu1YMbL2GXQ",
-    price: 18.3707,
+    price: 1.8371,
     leader: "4hXw9THadNiA23TEysW2GhZd1MwPiAA2pGUnk5doDcnJ",
     tracked: false,
     bamPros: true,
@@ -9225,7 +14594,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J3uTvZveRhrXmiywVqZ3MVwGrGz9KErZabwZq2f4EgYg",
-    price: 5.6074,
+    price: 0.5607,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -9348,7 +14717,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J3qKvgqKfnJANi5uXxqojCDZhCv9A3Fm4eLF2NbWcbno",
-    price: 14.0492,
+    price: 1.4049,
     leader: "BrSHuA4CxTwT3PusPLn7Rx1M9dH93rUZ9JeBtgnW5XKb",
     tracked: false,
     bamPros: true,
@@ -9479,7 +14848,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J3oizbKM1TFFJEhbneFbmsdyeG6eqzZUysbcKBCLUdQY",
-    price: 7.0544,
+    price: 0.7054,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -9610,7 +14979,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J3Hk4z5AV9dg3ZrVAeer63YRZVMbiW3pL7kyPqXmTtXG",
-    price: 11.7319,
+    price: 1.1732,
     leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
     tracked: false,
     bamPros: true,
@@ -9733,7 +15102,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J3EwiEUZhMbMiXcVXYE5BCXe8oDqJtDA5c5kDjw8JBaw",
-    price: 11.292,
+    price: 1.1292,
     leader: "4hXw9THadNiA23TEysW2GhZd1MwPiAA2pGUnk5doDcnJ",
     tracked: false,
     bamPros: true,
@@ -9856,7 +15225,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J35L77AVGZcqeZt11cxDWDk3bN2WE2H3vvLfKpQMYmum",
-    price: 16.69,
+    price: 1.669,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: false,
@@ -9987,7 +15356,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J2cMSCwNKuwJTZcjNphjdu6MG2WTEzZhVGVx4HJgbsr8",
-    price: 3.4237,
+    price: 0.3424,
     leader: "3wFXyZngPoM8pFx5bmfQCDWS2fYoyr3k9dRFKQa2QKEH",
     tracked: false,
     bamPros: true,
@@ -10110,7 +15479,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J2c6Hgh737PfUvZ5okFeavkiNMxjZ8zXnhRnoZ97nGE2",
-    price: 17.8281,
+    price: 1.7828,
     leader: "BrSHuA4CxTwT3PusPLn7Rx1M9dH93rUZ9JeBtgnW5XKb",
     tracked: false,
     bamPros: true,
@@ -10233,7 +15602,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J2TKg2oC2dQ9WkaJd1T5iZHMySQvSXdU6LWt1xbaPe9i",
-    price: 16.6568,
+    price: 1.6657,
     leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
     tracked: false,
     bamPros: true,
@@ -10356,7 +15725,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J2RwXppL2TSNNWwmt359oRmikh7B94d5SoCzhnVQLRVU",
-    price: 2.0265,
+    price: 0.2026,
     leader: "3hGhdH4VsRCxM8XVdRYcFFow4rDJ9hZdPZ6U3EcsbsA5",
     tracked: false,
     bamPros: true,
@@ -10479,7 +15848,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J2LD7rv37kxHHJ4be55Y9V8ed24PLajeWDAq4P4Pfmhz",
-    price: 5.9971,
+    price: 0.5997,
     leader: "BrSHuA4CxTwT3PusPLn7Rx1M9dH93rUZ9JeBtgnW5XKb",
     tracked: false,
     bamPros: true,
@@ -10618,7 +15987,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J1ru1kzBNArk1bZUcrs2JR8RGuLCRtAVoB4Jy8yDSe5Z",
-    price: 6.7123,
+    price: 0.6712,
     leader: "7GFENmZ9yMC62zMu3PHwQKJd5kG34MtoZoHY4LM95e7Z",
     tracked: false,
     bamPros: true,
@@ -10741,7 +16110,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J1rFm4XFC5PjANKP4q5RmvWsoushT18UpJ3Hhqj3zhqf",
-    price: 7.0857,
+    price: 0.7086,
     leader: "H9oDPoHyV9dUT13ayrbhrj2Y9cFejtL5Gy3Y7bWWrRNN",
     tracked: false,
     bamPros: true,
@@ -10872,7 +16241,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J1qmXaAczzHrYftYrDX6oLMFtpyfeceyRygTwNMe42je",
-    price: 7.351,
+    price: 0.7351,
     leader: "EXE58RFWYYQgqdRmHVoLvTEJPrgycwhViLgHFj2Xyz8x",
     tracked: false,
     bamPros: true,
@@ -11015,7 +16384,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J1Nmm2WKS6f2dvFos8a71uhTrPVspEEu74diYq1dVWcp",
-    price: 13.1496,
+    price: 1.315,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: false,
@@ -11146,7 +16515,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "J15iDCPGS9ZoPbFhywCoAdqZA5PR1JP39H2xDh2b4hmo",
-    price: 8.8883,
+    price: 0.8888,
     leader: "5vGf89D2xfVG5Q6Gi5dbXDnVAXwHNy5ZgDA13UHKW3iq",
     tracked: false,
     bamPros: true,
@@ -11269,7 +16638,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hzy9C7y5NGZXgYwWzw5LJ4uVmFHHS8B1Mk2UJSNzHtgh",
-    price: 2.6608,
+    price: 0.2661,
     leader: "5rZFAayRrfvLw4LVDA3ERZ5NZoyk5iQ8K6RdGXyWpYBz",
     tracked: false,
     bamPros: true,
@@ -11411,7 +16780,7 @@ export const allNFTItems = [
   },
   {
     id: "8e3c28c1-8f1a-4477-9e2d-b592f2e395a8",
-    price: 1.1254,
+    price: 0.1125,
     leader: "2a9MtxdHycCqBYY9MEbqs8ZrAeVvqAJYt3r3JmDa8VYR",
     tracked: false,
     bamPros: true,
@@ -11434,7 +16803,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hzw9m1gTaX1fCZXvNN89tZgSqynsZvT3V9TYWiWysLen",
-    price: 8.8322,
+    price: 0.8832,
     leader: "D4XsNd5hHb5Vx9z4RMZwdF5DbJeFnUzZnLxZr5TxV7cV",
     tracked: false,
     bamPros: true,
@@ -11557,7 +16926,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "HzkCUYn6zhtXYey1ELPQ4UoPRkjsFNCLTHeC1FtpdTvW",
-    price: 11.9567,
+    price: 1.1957,
     leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
     tracked: false,
     bamPros: true,
@@ -11680,7 +17049,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hzjieth7UDjgaX2tS4r6pXXyfKw8H1hAJvVncZHwQy7a",
-    price: 19.1865,
+    price: 1.9186,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -11802,7 +17171,7 @@ export const allNFTItems = [
   },
   {
     id: "d1b9c31c-1a2c-4dc2-8ffa-7f0638c3c3e6",
-    price: 8.3224,
+    price: 0.8322,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -11825,7 +17194,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hzi5fku38YbH4ebVxa6zjefYcFroc14VkkkaT8bmE2Vy",
-    price: 10.1623,
+    price: 1.0162,
     leader: "4hXw9THadNiA23TEysW2GhZd1MwPiAA2pGUnk5doDcnJ",
     tracked: false,
     bamPros: true,
@@ -11948,7 +17317,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "HzYw8e64YD4wuTQuVRFGBuc3MEFHvqT3cWduABw48nd7",
-    price: 16.3916,
+    price: 1.6392,
     leader: "B7TzF2cNVvRpnzvZjWrp8uEcErLfmiZ2BmWn1j3ktbpM",
     tracked: false,
     bamPros: true,
@@ -12083,7 +17452,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "HzUBGiP9EqvWJfk3UEzfoA61LnpanpD2Hy9XAYmQ7qdD",
-    price: 8.5464,
+    price: 0.8546,
     leader: "BrSHuA4CxTwT3PusPLn7Rx1M9dH93rUZ9JeBtgnW5XKb",
     tracked: false,
     bamPros: true,
@@ -12206,7 +17575,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "HzMnEqxhMjdHhQpjmTPVLesuX1zFqAHHLGvggcXMac5w",
-    price: 5.8814,
+    price: 0.5881,
     leader: "9rFkvkTi2nZy7An9LsqWaTFzU4ff3eNdHLrGdxAQRg9R",
     tracked: false,
     bamPros: true,
@@ -12329,7 +17698,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hz68JcSyv53x14GV3ZJUNSLYF2rSo46ekVSCtdN3bCP8",
-    price: 4.7188,
+    price: 0.4719,
     leader: "8DyLG7ZrdCCdxsHqAW1NyNE4dS5t23GwLg1ZfNxvARvS",
     tracked: false,
     bamPros: false,
@@ -12464,7 +17833,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hz1t5Wi6ztf9YAnbTp5QjE6RBQ7PCHC6eTjuYFSmgvYk",
-    price: 10.5515,
+    price: 1.0552,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -12586,7 +17955,7 @@ export const allNFTItems = [
   },
   {
     id: "61ab1553-11dc-4ffa-ae93-149b4b9658b4",
-    price: 8.3224,
+    price: 0.8322,
     leader: "B65dJKiZoTf14z2rZ16bhB5TC7YY3WBtDeC5iF9BKgqK",
     tracked: false,
     bamPros: true,
@@ -12609,7 +17978,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "HyyX6aP6VPRbZ94PhDt2xXJa8uYrNGojFUWh4yrj5xR1",
-    price: 2.3598,
+    price: 0.236,
     leader: "8tvQk9BRjZLysbvFqhhGejPLR4DS4Fyo3JrK9MtPzPLu",
     tracked: false,
     bamPros: true,
@@ -12744,7 +18113,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "HyyW8t2UVDyBNv7mSm3jDvjVBvQHLa8UocnFc5exyDfg",
-    price: 2.4816,
+    price: 0.2482,
     leader: "BbJhUoFDSfzEgEJJKC9GBtaZYwsqZd6eFnvztXV6e9KH",
     tracked: false,
     bamPros: true,
@@ -12867,7 +18236,7 @@ export const allNFTItems = [
   {
     interface: "Custom",
     id: "Hyy37QRTUsEPmQjevKerWkm6YE9RhWMBHAC7e3a19sGe",
-    price: 15.8127,
+    price: 1.5813,
     leader: "G7ViHbK2m3Nj7dDGHUQmMN3XqwbDZddDCQsXRUjhnQHY",
     tracked: false,
     bamPros: true,
@@ -12988,3 +18357,4 @@ export const allNFTItems = [
     },
   },
 ];
+
