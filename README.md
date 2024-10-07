@@ -1,8 +1,34 @@
-# Next.js & NextUI Template
+# BIDCOIN
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+## [Live link of the project](https://bidcoin-app-mock.vercel.app/onboard)
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+Bidcoin is a decentralized online penny auction platform that integrates blockchain technology to enhance transparency, trust, and security.  
+It enables users to bid on a wide variety of products such as digital assets, cryptocurrency, luxury items, and more.  
+Key features include automated bidding with BidBot, real-time tracking, and smart contract-based auction processes to ensure fairness.  
+The platform also supports cryptocurrency payments and offers a seamless, gamified auction experience​​​.  
+
+To set up the project locally, you need the tool [Node.js](https://nodejs.org/en).
+
+After cloning the project, run the `npm install` command in the root directory.
+
+To ensure the data fetch operations in the project work, create a file named `.env.local` in the root directory and set two environment variables within it:
+
+NEXT_PUBLIC_WEB3AUTH_CLIENT_ID=<[Your Client_ID from Web3Auth](https://web3auth.io/)>
+NEXT_PUBLIC_SAMPLE_PROGRAM_ID='C87Mkt2suddDsb6Y15hJyGQzu9itMhU7RGxTQw17mTm' (Sample counter smart contract program id for test purposes)
+
+NEXT_PUBLIC_FIREBASE_API_KEY=<[Firebase_config](https://firebase.google.com/)>  
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=<[Firebase_config](https://firebase.google.com/)>  
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=<[Firebase_config](https://firebase.google.com/)>  
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<[Firebase_config](https://firebase.google.com/)>  
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=<[Firebase_config](https://firebase.google.com/)>  
+NEXT_PUBLIC_FIREBASE_APP_ID=<[Firebase_config](https://firebase.google.com/)>  
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=<[Firebase_config](https://firebase.google.com/)>  
+FIREBASE_ADMIN_SERVICE_ACCOUNT=<[Firebase_config](https://firebase.google.com/)>  
+
+
+Then, to run the project, use the `npm run dev` command.
+
+If you want to build the project and run the built version, use the `npm run build` and `npm start` commands, respectively.
 
 ## Technologies Used
 
@@ -13,41 +39,3 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
-
-## How to Use
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
